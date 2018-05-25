@@ -6,14 +6,14 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name='django-filebrowser',
-    version='3.10.1',
+    name='django-filebrowser-gcs-resumable',
+    version='0.1',
     description='Media-Management with Grappelli',
     long_description=read('README.rst'),
-    url='http://django-filebrowser.readthedocs.org',
+    url='',
     download_url='',
-    author='Patrick Kranzlmueller, Axel Swoboda (vonautomatisch)',
-    author_email='office@vonautomatisch.at',
+    author='Paweł Bojanowski',
+    author_email='pawebojanowski@gmail.com',
     license='BSD',
     packages=find_packages(),
     include_package_data=True,
